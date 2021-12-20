@@ -1,0 +1,31 @@
+2021-12-12 17:47:56 DEBUG Main:12 - test debug
+2021-12-14 21:14:14 ERROR UserDaoImpl:69 - org.postgresql.util.PSQLException: No value specified for parameter 1.
+2021-12-14 21:14:20 ERROR UserDaoImpl:69 - org.postgresql.util.PSQLException: No value specified for parameter 1.
+2021-12-14 21:14:24 ERROR UserDaoImpl:69 - org.postgresql.util.PSQLException: No value specified for parameter 1.
+2021-12-14 21:14:28 ERROR UserDaoImpl:69 - org.postgresql.util.PSQLException: No value specified for parameter 1.
+2021-12-14 21:23:45 ERROR UserDaoImpl:91 - org.postgresql.util.PSQLException: No results were returned by the query.
+2021-12-14 21:27:34 ERROR UserDaoImpl:91 - org.postgresql.util.PSQLException: No results were returned by the query.
+2021-12-14 22:08:26 ERROR UserDaoImpl:97 - org.postgresql.util.PSQLException: No results were returned by the query.
+2021-12-15 23:16:44 ERROR UserDaoImpl:47 - org.postgresql.util.PSQLException: The server requested password-based authentication, but no password was provided.
+2021-12-16 02:05:40 ERROR UserDaoImpl:47 - org.postgresql.util.PSQLException: The server requested password-based authentication, but no password was provided.
+2021-12-16 21:57:14 ERROR UserDaoImpl:47 - org.postgresql.util.PSQLException: The server requested password-based authentication, but no password was provided.
+2021-12-16 22:01:25 ERROR UserDaoImpl:48 - org.postgresql.util.PSQLException: The server requested password-based authentication, but no password was provided.
+2021-12-19 01:40:11 ERROR UserDaoImpl:122 - org.postgresql.util.PSQLException: No results were returned by the query.
+2021-12-20 02:32:52 ERROR UserDaoImpl:122 - org.postgresql.util.PSQLException: No results were returned by the query.
+2021-12-20 02:34:38 ERROR UserDaoImpl:122 - org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "ers_users_user_email_key"
+  Detail: Key (user_email)=(TB@tb) already exists.
+2021-12-20 02:35:34 ERROR UserDaoImpl:122 - org.postgresql.util.PSQLException: No results were returned by the query.
+2021-12-20 02:39:44 ERROR UserDaoImpl:122 - org.postgresql.util.PSQLException: No results were returned by the query.
+2021-12-20 02:55:43 ERROR UserDaoImpl:122 - org.postgresql.util.PSQLException: No results were returned by the query.
+2021-12-20 02:55:58 ERROR UserDaoImpl:122 - org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "ers_users_ers_username_key"
+  Detail: Key (ers_username)=() already exists.
+2021-12-20 02:57:33 ERROR UserDaoImpl:122 - org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "ers_users_ers_username_key"
+  Detail: Key (ers_username)=() already exists.
+2021-12-20 06:56:04 ERROR UserDaoImpl:122 - org.postgresql.util.PSQLException: No results were returned by the query.
+2021-12-20 06:57:00 ERROR UserDaoImpl:122 - org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "ers_users_ers_username_key"
+  Detail: Key (ers_username)=(Employee1) already exists.
+2021-12-20 12:58:59 ERROR UserDaoImpl:122 - org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "ers_users_ers_username_key"
+  Detail: Key (ers_username)=(JMIN) already exists.
+2021-12-20 13:02:55 ERROR UserDaoImpl:122 - org.postgresql.util.PSQLException: No results were returned by the query.
+2021-12-20 13:05:57 ERROR UserDaoImpl:122 - org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "ers_users_ers_username_key"
+  Detail: Key (ers_username)=(Employee1) already exists.

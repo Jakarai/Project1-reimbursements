@@ -1,0 +1,64 @@
+/* #reimbForm{
+   
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 300px;
+
+} */
+
+/* #reimbFormDiv{
+   padding: auto;;
+} */
+
+#createReimb{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 63rem;
+
+}
+
+.titlePage{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#loginForm{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#formInput{
+
+   width: 60%;
+   margin-left: 300px;
+   margin-top: 10rem;
+    
+}
+#newUser{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+td.approved {
+    background-color: green;
+  }
+  td.denied {
+    background-color: red;
+  }
+  td.pending {
+      background-color: grey;
+  }
+
+  .app-col {
+      background-color: green;
+  }
+  .den-col {
+      background-color: red;
+  }
